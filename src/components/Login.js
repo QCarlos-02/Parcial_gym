@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {Menu} from './Menu'
+import '../App.css';
 
 export const Login = () => {
 
@@ -42,7 +43,7 @@ export const Login = () => {
   }
 
   return (
-    <div className="contenedor" style={{background:"lightblue", marginTop:20, padding:20}}>
+    <div className="contenedor" style={{background:"orange", marginTop:20, padding:20}}>
         
     { miLogin == false ? 
 
